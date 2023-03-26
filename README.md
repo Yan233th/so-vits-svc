@@ -1,5 +1,17 @@
 # SoftVC VITS Singing Voice Conversion
 
+此为fork的源码，预训练底模文件 `D_0.pth` 与 `G_0.pth` 已补档至Dropbox网盘，大陆地区需要代理，此为网上搜集资源，不保真，经过我自己的训练实测(分支4.0下)没问题。
+
+Dropbox link: [D_0.pth](https://www.dropbox.com/s/1yp54ugp5tmt348/D_0.pth) [G_0.pth](https://www.dropbox.com/s/mkhnaesmdnucfnr/G_0.pth)
+
+MEGA网盘也有备份 [models](https://mega.nz/folder/wKJymACZ#I0ZzyUsj5rgpzw4gTzdHDg)
+
+```shell
+wget -P logs/44k/ https://www.dropbox.com/s/1yp54ugp5tmt348/D_0.pth
+wget -P logs/44k/ https://www.dropbox.com/s/mkhnaesmdnucfnr/G_0.pth
+# 也可手动下载放在 logs/44k 目录
+```
+
 [**English**](./README.md) | [**中文简体**](./README_zh_CN.md)
 
 #### ✨ A fork with a greatly improved interface: [34j/so-vits-svc-fork](https://github.com/34j/so-vits-svc-fork)
